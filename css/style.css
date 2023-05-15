@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+body{
+    background-color: deepskyblue;
+}
+#admin-box{
+    background-color: crimson;
+    color:#fff;
+    width: 50%;
+    margin: 10% auto;
+    padding: 25px;
+    text-align: center;
+}
+#admin-box h1{
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#admin-box img{
+    width: 15%;
+    margin: auto;
+}
+input,
+level {
+display: block;
+}
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: crimson;
+    border: 2px solid black;
+}
+form{
+     margin-top: 30px;
+}
+label{
+    font-size: 23px;
+    line-height: 10px
+}
+input::placeholder{
+    color: black;
+}
+input[type="submit"]{
+    width: 50%;
+    margin: 20px auto;
+    transition: ease-in 0.8s;
+    text-transform: uppercase;
+}
+input[type="reset"]{
+    width: 50%;
+    margin: 20px auto;
+    transition: ease-in 0.8s;
+    text-transform: uppercase;
+}
+input[type="reset"]:hover{
+    background-color: rgb(9, 75, 75);
+    color: crimson;
+}
+input[type="submit"]:hover{
+    background-color: rgb(9, 75, 75);
+    color: crimson;
+}
+.pg{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.pg a{
+    text-transform: capitalize;
+    color: aqua;
+}
+.pg a:hover{
+    color: blue;
+    
+}
+.pg a:active{
+    color: rgb(12, 88, 31);
+}
+   
